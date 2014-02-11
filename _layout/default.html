@@ -1,38 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="duckspot.github.io : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+  <head>    
     <title>duckspot.github.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/duckspot">View on GitHub</a>
-
-          <h1 id="project_title">duckspot.github.io</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"><div>LEFT SIDE</div></div>
+        <div class="col-md-8">
+          <!-- MAIN CONTENT -->
+          {{content}}
+        </div>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    {{content}}
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-    
   </body>
 </html>
